@@ -1,0 +1,13 @@
+//const data = new Date(2019, 3) //a, m, d, h, M, s, ms
+//const data = new Date('2019-04-20 20:04:29.100')
+const data = new Date(1746906206962)
+console.log('Dia', data.getDate())
+console.log('Mês', data.getMonth())
+console.log('Ano', data.getFullYear())
+console.log('Hora', data.getHours())
+console.log('Min', data.getMinutes())
+console.log('Seg', data.getSeconds())
+console.log('ms', data.getMilliseconds())
+console.log('Dia semana', data.getDay()) // 0 - Domingo, 6 - Sábado
+console.log(data.toString())
+console.log(Date.now())
